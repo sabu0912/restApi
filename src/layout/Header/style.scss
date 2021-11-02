@@ -1,0 +1,29 @@
+.l_header {
+    display: flex;
+    background: black;
+    & .container__logo {
+        width: 55%;
+    }
+    & .title__header {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+       color: whitesmoke;
+       font-size: 40px;
+    //    width: 40%;
+       & > h1 {
+           width: 90%;
+           height: 100%;
+       }
+    }
+    & .l_header__nav {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: calc(100% - 300px);
+        color: blanchedalmond;
+        font-size: 18px;
+        
+    }
+}
+
